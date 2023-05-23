@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entity\Country.cs" />
+    <Compile Remove="Entity\District.cs" />
+    <Compile Remove="Entity\Notification.cs" />
+    <Compile Remove="Entity\Order.cs" />
+    <Compile Remove="Entity\OrderDetail.cs" />
+    <Compile Remove="Entity\OrderLog.cs" />
+    <Compile Remove="Entity\ProductType.cs" />
+    <Compile Remove="Entity\Province.cs" />
+    <Compile Remove="Entity\SaleCode.cs" />
+    <Compile Remove="Entity\SupplierProductType.cs" />
+    <Compile Remove="Entity\Ward.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+  </ItemGroup>
+
+</Project>
